@@ -4,27 +4,31 @@ public class OperatorsRunner {
 
 	public static void main(String[] args) {
 		
-		boolean trueValue = true;
-		boolean falseValue = false;
-		
-		System.out.println("True && True = ");
-		System.out.println("True && False = ");
-		System.out.println("False && False = ");
-		System.out.println("\n------------------------------------\n");
-		
-		System.out.println("True || True = ");
-		System.out.println("True || False = ");
-		System.out.println("False || False = ");
-		System.out.println("\n------------------------------------\n");
-		
-		System.out.println("True ^ True = ");
-		System.out.println("True ^ False = ");
-		System.out.println("False ^ False = ");
-		System.out.println("\n------------------------------------\n");
-		
+		boolean tVal = true;
+		boolean fVal = false;
 
-		System.out.println("!True = ");
-		System.out.println("!False = ");
+		System.out.println("AND OPERATOR");
+		System.out.println("True && True = "+(tVal && tVal));
+		System.out.println("True && False = "+(tVal && fVal));
+		System.out.println("False && False = "+(fVal && fVal));
+		System.out.println("\n------------------------------------\n");
+//		
+		System.out.println("OR OPERATOR");
+		System.out.println("True || True = "+(tVal || tVal));
+		System.out.println("True || False = "+(tVal || fVal));
+		System.out.println("False || False = "+(fVal || fVal));
+		System.out.println("\n------------------------------------\n");
+//		
+		System.out.println("EXCLUSIVE OR OPERATOR");
+		System.out.println("True ^ True = "+(tVal ^ tVal));
+		System.out.println("True ^ False = "+(tVal ^ fVal));
+		System.out.println("False ^ False = "+(fVal ^ fVal));
+		System.out.println("\n------------------------------------\n");
+//		
+//
+		System.out.println("NOT OPERATOR");
+		System.out.println("!True = "+(!tVal));
+		System.out.println("!False = "+(!fVal));
 		System.out.println("\n------------------------------------\n");
 
 	}

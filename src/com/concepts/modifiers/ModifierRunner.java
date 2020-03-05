@@ -4,7 +4,6 @@ public class ModifierRunner {
 
 	public static void main(String[] args) {
 		
-
 	}
 
 }
